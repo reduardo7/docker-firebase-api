@@ -1,5 +1,13 @@
 # Docker Firebase API
 
+## Docker
+
+https://hub.docker.com/r/reduardo7/firebase-api
+
+```bash
+docker pull reduardo7/firebase-api
+```
+
 ## Setup
 
 1. Generate your `service-account.json` from _Firebase Console_.
