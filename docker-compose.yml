@@ -4,7 +4,7 @@ services:
 
   firebase:
     build: .
-    image: reduardo7/firebase
+    image: reduardo7/firebase-api
     volumes:
       - ./service-account.json:/app/service-account.json
     environment:
