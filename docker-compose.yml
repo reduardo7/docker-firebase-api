@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+
+  firebase:
+    build: .
+    image: reduardo7/firebase
+    volumes:
+      - ./service-account.json:/app/service-account.json
+    environment:
+      PROJECT_ID: yourProjectId
+    ports:
+      - 3000:3000
