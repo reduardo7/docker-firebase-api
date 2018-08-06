@@ -88,7 +88,7 @@ app.get('/message/:topic/:title/:body', async (req, res) => {
   const data = await sendFcmMessage({
     message: {
       topic: topic,
-      notification: {
+      data: {
         title: title,
         body: body
       }
